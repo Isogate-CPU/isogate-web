@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://isogate.tech/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://isogate.tech/?page=docs</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://isogate.tech/?page=genesis</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://isogate.tech/?page=genesis-launches</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://isogate.tech/?page=provider</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://isogate.tech/?page=network-explorer</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://isogate.tech/?page=status</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://isogate.tech/?page=security</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://isogate.tech/?page=repository</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://isogate.tech/?page=legal</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+</urlset>

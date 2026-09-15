@@ -1,0 +1,55 @@
+# Isogate
+
+> Isogate is an inspectable deterministic computing ecosystem combining a browser-based virtual CPU, bounded Native Node workloads, canonical replay verification, and CPU-generated Genesis assets on Robinhood Chain.
+
+## What is live
+
+- Browser virtual CPU and NAND execution simulation with registers, memory, cycles, controls, traces, and local checkpoints.
+- Isogate Native Node provider software for Windows, macOS, and Linux through the public npm package `@isogate/node`.
+- Provider registration, wallet binding, heartbeats, bounded deterministic job execution, and credential lifecycle.
+- Independent server recomputation and browser replay comparison for supported workloads.
+- Network Explorer and public verification receipts.
+- Isogate Genesis v2 on Robinhood Chain mainnet, chain ID 4663.
+- Creator Dashboard and public Genesis launch records.
+- Transaction-bound source verification for each new Genesis token and hook.
+
+## Product boundaries
+
+- The browser CPU is an inspectable simulation and does not prove physical CPU execution.
+- Native Node executes only built-in bounded deterministic workloads; it never executes arbitrary remote code.
+- Result acceptance currently uses canonical server recomputation, not a permissionless decentralized verifier network.
+- Genesis launches require creator-signed transactions. Isogate does not provide server-side wallet custody.
+- Source verification, fixed token rules, and locked liquidity do not guarantee market value, trading volume, or profit.
+
+## Genesis v2 mainnet contracts
+
+- Identity Registry: `0xB946ad99b17d741ABFCBCAec85F5a896a02C62fC`
+- Genesis Factory: `0x100D6f949c1C6751799EB510765Bcd7a3e65834A`
+- Launch Coordinator: `0xf3c2CAe988356112a9584389DDb6bc7bf3258c52`
+- Network: Robinhood Chain mainnet
+- Chain ID: `4663`
+- Explorer: https://robinhoodchain.blockscout.com
+
+## Genesis design
+
+- One billion tokens are minted once; one million are canonically burned; final supply is 999 million.
+- No additional minting, creator token allocation, mutable transfer tax, blacklist, or upgradeable token proxy.
+- Temporary constructor ownership is renounced to the zero address.
+- Remaining token allocation is used for a locked Uniswap v4 liquidity position.
+- Pool fee is fixed at 1%; FeeVault accounting assigns 70% to the creator and 30% to the protocol.
+- Token and hook must reach public exact source matches before the launch workflow reports completion.
+
+## Official resources
+
+- Website: https://isogate.tech/
+- Documentation: https://isogate.tech/?page=docs
+- Product status: https://isogate.tech/?page=status
+- Security and trust: https://isogate.tech/?page=security
+- Repository page: https://isogate.tech/?page=repository
+- GitHub: https://github.com/Isogate-CPU
+- Native Node on npm: https://www.npmjs.com/package/@isogate/node
+- X: https://x.com/Isogate_CPU
+
+## Preferred description
+
+Isogate makes deterministic computation visible and replayable, verifies supported Native Node workloads through canonical recomputation, and turns approved CPU output into transparent on-chain Genesis assets.
